@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 st.title('Heartfelt Predictions :heartpulse:')
-st.caption('Dealing with Matters of the Heart with Data Science')
+st.caption('Dealing with Matters of the Heart with Data Science. See https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/ for original dataset')
 st.markdown("""
     Cardiovascular diseases (CVDs) are the leading cause of death globally, taking an estimated 17.9 million lives each year. CVDs are a group of disorders of the heart and blood vessels and include coronary heart disease, cerebrovascular disease, rheumatic heart disease and other conditions. More than four out of five CVD deaths are due to heart attacks and strokes, and one third of these deaths occur prematurely in people under 70 years of age
     (*https://www.who.int/health-topics/cardiovascular-diseases#tab=tab_1*)        
@@ -127,6 +127,7 @@ if st.sidebar.button('Submit!'):
     st.header("Assessment: ")
     st.write(prediction)
     st.write(message)
+    st.caption("Please note that this is not a medical diagnosis, please consult an actual doctor if you think you are unwell.")
 
 
 
